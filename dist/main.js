@@ -1,6 +1,1 @@
-console.log("Testing");
-
-const contentDiv = document.querySelector("#content")
-const heading = document.createElement("h1")
-heading.textContent = "To-Do list"
-contentDiv.appendChild(heading)
+(()=>{"use strict";const e=()=>{console.log("blank pages");let e=[];console.log(e);let o="default project";return e.push({projectTitle:o}),console.log(e),{projectsArray:e,projectTitle:o}};let o=[];e(),(()=>{const o=document.querySelector("#content"),t=document.createElement("h1");t.textContent="To-Do list",o.appendChild(t);const l=document.createElement("div");l.textContent=e().projectTitle,o.appendChild(l)})();const t=(l="Homework",c="do work",n="22/2/2024",i="High",r="To do list",console.log("Called createToDo module...creating todo now"),console.log({Title:l,Description:c,DueDate:n,Priority:i,CheckList:r}),console.log("Pushing this object to the toDoArray...."),o.push({Title:l,Description:c,DueDate:n,Priority:i,CheckList:r}),console.log(o),{Title:l,Description:c,DueDate:n,Priority:i,CheckList:r});var l,c,n,i,r;console.log("Pushing myTodo ",t)})();
